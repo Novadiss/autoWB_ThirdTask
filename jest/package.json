@@ -7,6 +7,17 @@
     "test": "jest",
     "coverage": "jest --collectCoverage"
   },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": ["./app.js"],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100
+      }
+    }
+  },
   "keywords": [
     "jest",
     "test",
@@ -15,6 +26,9 @@
   "author": "omelnikova",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.3.1"
+    "jest": "^27.5.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
