@@ -14,9 +14,7 @@ test("test", async ({ page }) => {
 
   page.click("text=Бизнес и управление");
 
-  // Click text=Как перенести своё дело в онлайн
-  await page.click("text=Как перенести своё дело в онлайн");
-  await expect(page).toHaveURL(
-    "https://netology.ru/programs/kak-perenesti-svoyo-delo-v-onlajn-bp"
-  );
+  // Click text=Продакт-менеджер: практическое погружение в профессию
+  await page.click('text=Продакт-менеджер: практическое погружение в профессию');
+  await expect(page).toHaveURL('https://netology.ru/programs/product-manager-free');
 });
