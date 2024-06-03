@@ -9,7 +9,11 @@
   },
   "jest": {
     "collectCoverage": true,
-    "collectCoverageFrom": ["./app.js"],
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}js",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 100,
