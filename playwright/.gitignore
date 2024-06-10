@@ -1,5 +1,6 @@
 /node_modules/
 user.js
+Screenshots
 
 .vscode/*
 !.vscode/settings.json
