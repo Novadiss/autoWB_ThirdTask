@@ -10,9 +10,9 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "**/*.{js,jsx}js",
+      "**/*.{js,jsx}",
       "!**/node_modules/**",
-      "!**/vendor/**"
+      "!**/coverage/**"
     ],
     "coverageThreshold": {
       "global": {
